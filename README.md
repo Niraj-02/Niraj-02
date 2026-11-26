@@ -10,7 +10,7 @@ I'm a data science student who builds machine learning and deep learning systems
 | Project | What it does | Stack |
 |---|---|---|
 | [**Messy Mashup**](https://github.com/Niraj-02/Messy-Mashup-DL-GenAI-) | Music genre classification on noisy, remixed audio. Fine-tuned an Audio Spectrogram Transformer and built a stem-mixing and noise augmentation pipeline (0.87 macro F1 on the hidden test set). Streamlit app. | PyTorch · HF Transformers · librosa · W&B |
-| **Sports24** *(team project, private repo)* | Multi-tenant sports complex management platform. I worked on the backend: a Flask REST API with JWT auth, a dynamic pricing engine, an OpenAPI 3 contract and 70+ pytest integration tests | Flask · SQLAlchemy · JWT · OpenAPI · pytest |
+| [**Sports24**](https://github.com/Niraj-02/sports24) *(team of 5)* | Multi-tenant sports complex management platform. Full-stack, backend-heavy: pricing-engine APIs with an override audit trail, RBAC and invitation flows, onboarding and approval workflows, the OpenAPI contract, and React–API integration | Flask · SQLAlchemy · JWT · React · OpenAPI · pytest |
 | [**Comment category prediction**](https://github.com/Niraj-02/comment-category-prediction) | 4-class classification of 198k comments from text plus metadata, with heavy class imbalance (0.82 macro F1) | scikit-learn · LightGBM · TF-IDF |
 | [**Face age & gender**](https://github.com/Niraj-02/face-age-gender-prediction) | Multi-task CNN; fine-tuned ResNet-18 reaches 6.6-year MAE and 91% gender accuracy | PyTorch · torchvision · Trackio |
 | [**Protein secondary structure**](https://github.com/Niraj-02/protein-secondary-structure-prediction) | Per-residue Q8/Q3 sequence labelling, from BiRNN up to CNN + BiLSTM + CRF | PyTorch · pytorch-crf |
